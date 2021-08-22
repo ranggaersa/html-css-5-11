@@ -1,0 +1,115 @@
+ol {
+    font-family:'Times New Roman', Times, serif;
+    margin-bottom: 5%;
+}
+
+p {
+    text-align: justify;
+}
+
+table {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 17px;
+    text-align: center;
+}
+
+.gaya-huruf {
+    font-family: cursive;
+}
+
+.format-huruf {
+    font-style: italic;
+}
+
+.ukuran {
+    font-size: 110%;
+}
+
+.paragraf {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: slategrey;
+}
+
+ul {
+    background-color: thistle;
+    font-family:cursive;
+    font-size: 98%;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+ul li {
+    color:purple;
+    background:thistle;
+    display: inline-block;
+    border: 1px blue;
+
+    padding: 10px;
+    position: relative;
+    text-decoration: none;
+}
+
+ul li:hover {
+    background:lightgrey;
+    cursor: pointer;
+}
+
+ul li ul{
+    background: thistle;
+    visibility: hidden;
+    position:absolute;
+    margin-top: 0.5rem;
+    left: 0;
+    display: none;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+    visibility: visible;
+    display: block;
+}
+
+ul li ul li {
+    clear: both;
+    width: 100%;
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+footer {
+    margin: 3%;
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+}
+
+section {
+    margin-top: 2%;
+}
+
+section p {
+    margin-top: 2%;
+}
+
+.content {
+    margin-top:3%
+}
+
+header img {
+    float: left;
+    margin-bottom: 2%;
+}
+
+nav {
+    clear: both;
+}
+
+header h1 {
+    margin-left: 13%;
+}
